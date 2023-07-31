@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 
 // Endpoint to get a random quote
-app.get("/api/journal", (req, res) => {
+app.get("/api/Prompt", (req, res) => {
   const { Time } = req.query;
 
   if (Time) {
